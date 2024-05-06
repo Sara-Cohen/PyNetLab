@@ -1,4 +1,4 @@
-# chat_server_skeleton.py
+# chat_server.py
 # Sara Cohen
 
 import socket
