@@ -28,7 +28,7 @@ This exercise focuses on implementing an SMTP client and server using only the `
 2. Navigate to the directory containing the server script.
 3. Run the following command to start the server:
    ```
-   python server.py
+   python STMP_server.py
    ```
 
 ## Running the Client
@@ -36,7 +36,7 @@ This exercise focuses on implementing an SMTP client and server using only the `
 2. Navigate to the directory containing the client script.
 3. Run the following command to start the client:
    ```
-   python client.py
+   python STMP_client.py
    ```
 
 ## Notes:
