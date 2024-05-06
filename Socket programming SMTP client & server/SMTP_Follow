@@ -1,0 +1,28 @@
+220-test_SMTP_server.com ESMTP Exim 2024-01-11 -0500 
+220-We do not authorize the use of this system to transport unsolicited,
+220 and/or bulk e-mail.
+EHLO client.com
+250-test_SMTP_server.com Hello client.com
+AUTH LOGIN
+334 VXNlcm5hbWU=
+YmFyYmll
+334 UGFzc3dvcmQ=
+aGVsbG9rZW4=
+235 Authentication succeeded
+MAIL FROM: <sender@example.com>
+250 OK
+RCPT TO: <recipient@example.com>
+250 Accepted
+DATA
+354 Enter message, ending with '.' on a line by itself
+From: sender@example.com
+To: recipient@example.com
+Subject: Funniest Joke Ever
+
+Why don't scientists trust atoms?
+Because they make up everything!
+.
+
+250 OK
+QUIT
+221 client.com closing connection
